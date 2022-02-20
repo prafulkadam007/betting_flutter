@@ -68,7 +68,7 @@ class SigninView extends StatelessWidget {
   Widget build(BuildContext context) {
     storedContext = context;
     return FlutterLogin(
-      title: 'ECORP',
+      title: 'BRAND',
       logo: const AssetImage('assets/images/ecorp.png'),
       onLogin: _authUser,
       onSignup: _signupUser,
